@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import NpnProductList from './components/NpnProductList';
-import NpnProductAdd from './components/NpnProductAdd';
 
 export default class App extends Component {
   constructor(props){
