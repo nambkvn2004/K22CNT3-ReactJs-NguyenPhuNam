@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
- class NpnProductAdd extends Component {
+ class NpnProductAddOrEdit extends Component {
     constructor(props){
         super(props);
         this.state ={
@@ -71,4 +71,4 @@ import React, { Component } from 'react'
     )
   }
 }
-export default NpnProductAdd;
+export default NpnProductAddOrEdit;

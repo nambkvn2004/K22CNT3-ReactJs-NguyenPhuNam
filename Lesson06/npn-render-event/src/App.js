@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import NpnProductList from './components/NpnProductList';
+import NpnProductAddOrEdit from './components/NpnProductAddOrEdit';
 
 export default class App extends Component {
   constructor(props){
@@ -30,7 +32,7 @@ export default class App extends Component {
         <hr/>
         <NpnProductList renderProducts={this.state.products}/>
         <hr/>
-        <NpnProductAdd onSubmit = {this.npnHandleSubmit}/>
+        <NpnProductAddOrEdit onSubmit = {this.npnHandleSubmit}/>
       </div>
     )
   }
